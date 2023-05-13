@@ -1,0 +1,30 @@
+Observações:
+
+Onclick é uma tag para assim que o usuario clicar no elemento, o javascript agir e fazer a função.
+
+A tag do script precisa ser ao final do body, pois ao fazer uma declaração interagindo com algo do html, o programa precisa ler o html pra interagir com o javascript!
+
+Ctrl + x = recorta o conteúdo para ser colado em outro lugar.
+
+O sinal de atribuição tanto em html quanto em javascript é '='
+
+Função para tocar um audio: .play()
+
+Função onclick deve ser atribuido a função logo em seguida, como no exemplo a seguir:
+- document.querySelector('.tecla_clap').onclick = toca_som_clap;
+
+Caso a referencia for algo constante, ou seja, que não mudara seu valor, usar o 'const' como referencia!
+
+Para fazer uma referencia variavel, usar 'let'!
+
+Para selecionar um botão que não tenha classe ou id: input[type=button];
+
+lenght =  tamanho
+
+Quando tiver mais de uma ação, você precisa definir o parametro em comum, o parametro vai dentro do () da função!
+	- Alternativa correta! Os parâmetros servem para auxiliar em alguma lógica no código dentro de uma função. Por exemplo, uma função calculaMedia(), pode ter como parâmetros notaA e notaB, que serão os valores utilizados para serem caclulados e retornar o valor da média.
+
+= atribuição
+== igualdade
+=== identico
+	- Usar quando precisar de total certeza! Pois por exemplo ao comparar um number com uma string que contem um numero, vai retornar true porém em certos casos isso fará o programa dar erro.

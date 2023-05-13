@@ -1,0 +1,8 @@
+evento.preventDefault() 
+	- Interrompe o funcionamento padrão de certa instrução na página.
+
+<script src=”main.js”></script>
+	- Esta é a forma correta de escrever o caminho, abrindo e fechando a tag script, e o caminho do arquivo sendo referenciado junto da tag de abertura, e utilizando a propriedade src.
+
+addEventListener().
+	- Esta é a forma correta de utilizar um evento no JavaScript. No projeto do curso é utilizado o evento do tipo submit.

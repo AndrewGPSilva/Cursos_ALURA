@@ -1,0 +1,39 @@
+Ao declarar "evento" como parametro de uma função e pedir para retornar o evento, vai mostrar no console o que o usuario fez no site realizando essa função!
+
+HOISTING
+
+O Hoisting permite que você execute funções antes das suas declarações. Na prática, inicialmente as declarações de funções são colocadas na memória durante a fase de compilação e, mesmo assim, permanecem no mesmo lugar que estão digitadas.
+
+A utilização de Hoisting em var não é indicada, pois a variável criada é elevada para o escopo, mas sem o seu valor, e com isso, retorna valor undefined.
+
+Obs: O Hoisting só deve ser considerado caso sua declaração seja uma CONST pois se não retornara com erro.
+
+FUNÇÃO ANONIMAS
+
+Como uma função anônima não possui nome, ela precisa sempre ser declarada onde será executada, diferente de funções que podem ser declaradas mais de uma vez.
+
+==================================================
+parseInt() pega o valor de uma string e transforma em numero (caso a string seja um numero).
+
+ARRAY:
+
+Os arrays são estruturas que servem para guardar dados, e organizá-los. Seu objetivo é ser um espaço fixo na memória do computador que armazena elementos. Esses elementos podem ser acessados por um tipo de indicação, que chamamos de índice. De forma mais robusta, um array é uma estrutura de dados que serve para guardar elementos em um espaço da memória. Estes espaços da memória são chamados de variáveis. 
+EX: var listaDeFrutas = ['Maçãs','Uvas','Bananas','Abacaxi','Morangos'];
+
+Podemos acessar o índice de um elemento com o indexOf() passando como parâmetro o elemento.
+
+Para adicionar um elemento ao final do array podemos usar o push()
+
+Para adicionar um elemento no início do array podemos usar o unshift()
+
+Para remover um elemento do início de um array podemos usar o shift()
+
+Para remover um elemento do final de um array podemos usar o pop()
+
+A forma mais apropriada de consultar a quantidade de itens em um array é utilizando a propriedade length.
+
+Podemos também remover um item a partir de seu índice com o método splice()
+-EX: var lista = ["Laranja", "Vermelho", "Branco", "Amarelo", "Rosa"]; 
+lista.splice(1,1)
+console.log(lista);
+OBSERVAÇÃO: No método splice() o primeiro parâmetro deve ser a posição a partir do qual queremos remover os elementos, e o segundo parâmetro é a quantidade que queremos remover.
