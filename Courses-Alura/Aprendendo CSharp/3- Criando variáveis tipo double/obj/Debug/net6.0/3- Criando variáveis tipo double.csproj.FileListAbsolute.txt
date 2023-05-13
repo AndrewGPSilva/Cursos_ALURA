@@ -1,0 +1,15 @@
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\obj\Debug\net6.0\3- Criando variáveis tipo double.csproj.AssemblyReference.cache
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\obj\Debug\net6.0\3- Criando variáveis tipo double.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\obj\Debug\net6.0\3- Criando variáveis tipo double.AssemblyInfoInputs.cache
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\obj\Debug\net6.0\3- Criando variáveis tipo double.AssemblyInfo.cs
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\obj\Debug\net6.0\3- Criando variáveis tipo double.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\bin\Debug\net6.0\3- Criando variáveis tipo double.exe
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\bin\Debug\net6.0\3- Criando variáveis tipo double.deps.json
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\bin\Debug\net6.0\3- Criando variáveis tipo double.runtimeconfig.json
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\bin\Debug\net6.0\3- Criando variáveis tipo double.dll
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\bin\Debug\net6.0\3- Criando variáveis tipo double.pdb
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\obj\Debug\net6.0\3- Criando variáveis tipo double.dll
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\obj\Debug\net6.0\refint\3- Criando variáveis tipo double.dll
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\obj\Debug\net6.0\3- Criando variáveis tipo double.pdb
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\obj\Debug\net6.0\3- Criando variáveis tipo double.genruntimeconfig.cache
+C:\Users\Andrew\source\repos\Aprendendo CSharp\3- Criando variáveis tipo double\obj\Debug\net6.0\ref\3- Criando variáveis tipo double.dll

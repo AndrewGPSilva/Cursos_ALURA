@@ -1,0 +1,15 @@
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\bin\Debug\net6.0\2- Criando variaveis.exe
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\bin\Debug\net6.0\2- Criando variaveis.deps.json
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\bin\Debug\net6.0\2- Criando variaveis.runtimeconfig.json
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\bin\Debug\net6.0\2- Criando variaveis.dll
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\bin\Debug\net6.0\2- Criando variaveis.pdb
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\obj\Debug\net6.0\2- Criando variaveis.csproj.AssemblyReference.cache
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\obj\Debug\net6.0\2- Criando variaveis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\obj\Debug\net6.0\2- Criando variaveis.AssemblyInfoInputs.cache
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\obj\Debug\net6.0\2- Criando variaveis.AssemblyInfo.cs
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\obj\Debug\net6.0\2- Criando variaveis.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\obj\Debug\net6.0\2- Criando variaveis.dll
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\obj\Debug\net6.0\refint\2- Criando variaveis.dll
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\obj\Debug\net6.0\2- Criando variaveis.pdb
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\obj\Debug\net6.0\2- Criando variaveis.genruntimeconfig.cache
+C:\Users\Andrew\source\repos\Aprendendo CSharp\2- Criando variaveis\obj\Debug\net6.0\ref\2- Criando variaveis.dll
