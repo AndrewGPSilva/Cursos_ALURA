@@ -18,7 +18,8 @@ function salvarItens() {
         alert("Item já foi adicionado!")
     } else {
         listaDeItens.push ({
-            valor: itemCompras
+            valor: itemCompras,
+            checar: false
         })
     }
 
@@ -45,7 +46,9 @@ function mostrarItem() {
 
     inputsCheck.forEach(i => {
         i.addEventListener('click', (evento)=> {
-            console.log(evento.target.parentElement.parentElement.getAttribute('data-value'))
+            const valorDoElemento = evento.target.parentElement.parentElement.getAttribute('data-value')
+            listaDeItens[valorDoElemento].checar = evento.target.checked
+            
         })
     })
 }
