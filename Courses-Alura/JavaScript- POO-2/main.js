@@ -3,33 +3,49 @@ let listaDeItens = []
 const form = document.getElementById("form-itens")
 const itensInput = document.getElementById("receber-item")
 const ulitens = document.getElementById('lista-de-itens')
+const ulitensComprados = document.getElementById('itens-comprados')
 
 form.addEventListener("submit", function (evento) {
     evento.preventDefault()
     salvarItens()
     mostrarItem()
+    itensInput.focus()
 })
 
 function salvarItens() {
     const itemCompras = itensInput.value
     const checarDuplicado = listaDeItens.some((elemento) => elemento.valor.toUpperCase() === itemCompras.toUpperCase())
 
-    if(checarDuplicado) {
+    if (checarDuplicado) {
         alert("Item já foi adicionado!")
     } else {
-        listaDeItens.push ({
+        listaDeItens.push({
             valor: itemCompras,
             checar: false
         })
     }
 
-    console.log(listaDeItens)
+    itensInput.value = ''
 }
 
 function mostrarItem() {
     ulitens.innerHTML = ''
-    listaDeItens.forEach((elemento,index)=> {
-        ulitens.innerHTML += `
+    ulitensComprados.innerHTML = ''
+    listaDeItens.forEach((elemento, index) => {
+        if (elemento.checar) {
+            ulitensComprados.innerHTML += `
+            <li class="item-compra is-flex is-justify-content-space-between" data-value="${index}">
+        <div>
+            <input type="checkbox" checked class="is-clickable" />  
+            <span class="itens-comprados is-size-5">${elemento.valor}</span>
+        </div>
+        <div>
+            <i class="fa-solid fa-trash is-clickable deletar"></i>
+        </div>
+    </li>
+            `
+        } else {
+            ulitens.innerHTML += `
     <li class="item-compra is-flex is-justify-content-space-between" data-value="${index}">
         <div>
             <input type="checkbox" class="is-clickable" />
@@ -40,15 +56,16 @@ function mostrarItem() {
         </div>
     </li>
     `
+        }
     })
 
     const inputsCheck = document.querySelectorAll('input[type="checkbox"]')
 
     inputsCheck.forEach(i => {
-        i.addEventListener('click', (evento)=> {
+        i.addEventListener('click', (evento) => {
             const valorDoElemento = evento.target.parentElement.parentElement.getAttribute('data-value')
             listaDeItens[valorDoElemento].checar = evento.target.checked
-            
+            mostrarItem()
         })
     })
 }
