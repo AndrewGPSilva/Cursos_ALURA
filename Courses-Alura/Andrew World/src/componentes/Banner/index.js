@@ -7,11 +7,12 @@ export default function Banner() {
         <div className={styles.banner}>
             <div className={styles.apresentacao}>
                 <h1 className={styles.titulo}>
-                    Olá, Mundo!
+                    Olá, amigos!
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
+                    Sejam bem vindos ao meu mural de aprensentação! 
+                    Aqui você poderá conhecer um pouco sobre minha caminhada na área de TI!
                 </p>
             </div>
 

@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     gap: 1.5rem;
     margin-top: -2.5rem;
+    background-color: #E8AA42;
 }
  
 @media (max-width: 1100px) {

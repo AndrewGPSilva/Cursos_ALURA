@@ -1,9 +1,10 @@
 .navegacao {
-    height: 112px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 3rem;
+    background-color: #E57C23;
 }
 
  

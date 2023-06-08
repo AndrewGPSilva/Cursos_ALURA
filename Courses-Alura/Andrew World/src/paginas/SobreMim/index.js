@@ -11,7 +11,7 @@ export default function SobreMim() {
             titulo="Sobre mim"
         >
             <h3 className={styles.subtitulo}>
-                Olá, eu sou o Antônio!
+                Olá, eu sou o Andrew!
             </h3>
 
             <img
@@ -21,23 +21,23 @@ export default function SobreMim() {
             />
 
             <p className={styles.paragrafo}>
-                Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te ver por aqui.
+                Oi, tudo bem? Eu sou aluno da plataforma da Alura e faço Analíse e Desenvolvimento de Sistemas pela FAM!
             </p>
             <p className={styles.paragrafo}>
-                Minha história com programação começou no Instituto Federal do Piauí (IFPI), quando fiz o ensino médio integrado ao curso de Informática. Eu aprendi lógica de programação e o básico de várias linguagens, como PHP, Python, Java, mas sem aprofundar muito em cada uma delas. Eu gostava muito de estudar programação, mas na época não fazia ideia de que trabalharia com isso hoje.
+                Minha trajetória com programação começou em 2017 através do curso técnico de Mecatrônica que fiz pelo Senai, lá tive contato com a linguagem C!
             </p>
             <p className={styles.paragrafo}>
-                No ensino superior, escolhi cursar Engenharia Elétrica na Universidade Federal do Piauí (UFPI). Lá eu consegui entrar no PET (Programa de Educação Tutorial), um grupo acadêmico que contribui de diversas formas para o curso. Lá eu tive a oportunidade de estudar desenvolvimento web para ser um dos mantenedores do site deles.
+                Nesse curso mencionado fui o responsável pelo desenvolvimento de um aplicativo mobile android onde todas as funções do meu TCC iria ser controlado diretamente pelo aplicativo, não só comandos mas também o recebimento de informações como temperatura, umidade e entre outras coisas.
             </p>
             <p className={styles.paragrafo}>
-                Com isso tive minha experiência de dev mais próxima da realidade, com prazos de implementação para o site, e aprendi muito enquanto codificava.
+                Após essa experiência tive contato novamente com o mundo da programação através da faculdade que fiz por 1 ano antes de vir de fato para TI, cursei 2 períodos de Bacharel em Matemática onde lá tive contato com a linguagem Python!
             </p>
             <p className={styles.paragrafo}>
-                E foi enquanto eu estava no PET que decidi procurar um estágio em desenvolvimento web. Eu encontrei uma vaga na Alura para o Scuba Team e percebi que ela aliava duas paixões minhas: programação e educação. Para minha felicidade, fui escolhido para fazer parte do time.
+                E foi ai que eu percebi que era aquilo que eu desejava para minha vida, não se passou muito tempo e já comecei com cursos referente o front-end! Nessa disciplina onde utilizei Python fui responsável pela criação de um sistema onde o funcionário de RH iria digitar valores e informações sobre um funcionário e com o cálculo iria retornar o valor de aumento através de fórmulas no sistema!
 
             </p>
             <p className={styles.paragrafo}>
-                Desde então, tem sido aprenas aprendizados atrás de aprendizados. A Alura é uma escola não só para seus alunos e alunas, mas também para os colaboradores e colaboradoras. Hoje sou muito feliz de ter a oportunidade de trazer esses conteúdos ricos e encantadores para você. Espero que aprenda bastante!
+                Desde então, venho me empenhando cada dia mais para me tornar um desenvolvedor Fullstack, até o momento possuo conhecimento em algumas linguagens e banco de dados, mas ainda estou longe do meu objetivo, que é um dia me tornar Senior de uma grande empresa no exterior e para isso, sigo com minha amada rotina de estudos!
             </p>
         </PostModelo>
     )
