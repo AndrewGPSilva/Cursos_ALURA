@@ -29,8 +29,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 15vw;
-    height: 35vh;
+    width: 18vw;
     border-radius: 50%;
 }
  
@@ -61,7 +60,6 @@
    
     .imagens > .minhaFoto {
         width: 25vw;
-        height: 18vh;
     }
    
     .imagens > .circuloColorido {
