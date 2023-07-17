@@ -1,6 +1,8 @@
 <?php
 
 require "src/conexao-bd.php";
+require "src/Modelo/Produto.php";
+
 $sql1 = "SELECT * FROM produtos WHERE tipo = 'Café' ORDER BY preco";
 $statement = $pdo->query($sql1);
 $produtosCafe = $statement->fetchAll(PDO::FETCH_ASSOC);
