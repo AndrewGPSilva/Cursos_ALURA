@@ -7,7 +7,7 @@ class Produto
     private string $nome;
     private string $descricao;
     private string $imagem;
-    private string $preco;
+    private float $preco;
 
     public function __construct(int $id, string $tipo, string $nome, string $descricao, string $imagem, string $preco)
     {
