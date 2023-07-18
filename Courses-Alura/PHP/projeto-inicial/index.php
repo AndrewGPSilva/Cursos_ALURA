@@ -66,11 +66,11 @@ $dadosAlmoco = array_map(function ($almoco) {
                 <?php foreach($dadosCafe as $cafe): ?>
                 <div class="container-produto">
                     <div class="container-foto">
-                        <img src="<?= "img/".$cafe->getImagem() ?>">
+                        <img src="<?= $cafe->getImagemDiretorio() ?>">
                     </div>
                     <p><?= $cafe->getNome() ?></p>
                     <p><?= $cafe->getDescricao() ?></p>
-                    <p><?= "R$ " . number_format($cafe->getPreco(), 2) ?></p>
+                    <p><?= $cafe->getPrecoFormatado() ?></p>
                 </div>
             	<?php endforeach; ?>
             </div>
@@ -84,11 +84,11 @@ $dadosAlmoco = array_map(function ($almoco) {
                 <?php foreach($dadosAlmoco as $almoco): ?>
                 <div class="container-produto">
                     <div class="container-foto">
-                        <img src="<?= "img/".$almoco->getImagem() ?>">
+                        <img src="<?= $almoco->getImagemDiretorio() ?>">
                     </div>
                     <p><?= $almoco->getNome() ?></p>
                     <p><?= $almoco->getDescricao() ?></p>
-                    <p><?= "R$ " . number_format($almoco->getPreco(), 2) ?></p>
+                    <p><?= $almoco->getPrecoFormatado() ?></p>
                 </div>
                 <?php endforeach; ?>
             </div>
