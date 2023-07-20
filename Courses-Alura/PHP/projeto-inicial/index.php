@@ -69,7 +69,6 @@ $dadosAlmoco = $produtoRepositorio->opcoesAlmoco();
                 </div>
                 <?php endforeach; ?>
             </div>
-
         </section>
     </main>
 </body>
