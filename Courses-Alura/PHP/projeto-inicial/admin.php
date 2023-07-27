@@ -53,7 +53,7 @@ $produtos = $produtoRepositorio->buscarTodos();
         <td><?= $produto->getTipo() ?></td>
         <td><?= $produto->getDescricao() ?></td>
         <td><?= $produto->getPrecoFormatado() ?></td>
-        <td><a class="botao-editar" href="editar-produto.html">Editar</a></td>
+        <td><a class="botao-editar" href="editar-produto.php?id=<?= $produto->getId() ?>">Editar</a></td>
         <td>
           <form action="excluir-produto.php" method="POST">
             <input type="hidden" name="id" value="<?= $produto->getId() ?>">
@@ -64,7 +64,7 @@ $produtos = $produtoRepositorio->buscarTodos();
       <?php endforeach; ?>
       </tbody>
     </table>
-  <a class="botao-cadastrar" href="cadastrar-produto.html">Cadastrar produto</a>
+  <a class="botao-cadastrar" href="cadastrar-produto.php">Cadastrar produto</a>
   <form action="#" method="post">
     <input type="submit" class="botao-cadastrar" value="Baixar Relatório"/>
   </form>
