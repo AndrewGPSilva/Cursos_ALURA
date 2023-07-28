@@ -15,8 +15,8 @@ class Produto
         $this->tipo = $tipo;
         $this->nome = $nome;
         $this->descricao = $descricao;
-        $this->imagem = $imagem;
         $this->preco = $preco;
+        $this->imagem = $imagem;
     }
 
     public function getId(): int
