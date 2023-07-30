@@ -1,0 +1,22 @@
+{
+  "pensamentos" : [
+    {
+      "id": 1,
+      "conteudo": "Palmeiras minha vida é você!",
+      "autoria": "Andrew, torcedor do Palmeiras...",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "One Piece é o melhor anime",
+      "autoria": "Andrew, fã da obra OP...",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Beatriz é a minha princesa linda",
+      "autoria": "Andrew, namorado da Beatriz...",
+      "modelo": "modelo3"
+    }
+  ]
+}
