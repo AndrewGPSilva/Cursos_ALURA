@@ -13,16 +13,10 @@
       "modelo": "modelo2"
     },
     {
-      "id": 3,
-      "conteudo": "Beatriz é a minha princesa linda, pena que ela é fedidinha!",
-      "autoria": "Andrew, namorado da Beatriz...",
-      "modelo": "modelo1"
-    },
-    {
-      "conteudo": "Angular é mil vezes melhor que React",
+      "conteudo": "Angular é mil vezes melhor que React e quem discorda é doido...",
       "autoria": "Dev Andrew Silva",
       "modelo": "modelo3",
-      "id": 4
+      "id": 3
     }
   ]
 }
