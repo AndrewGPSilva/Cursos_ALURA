@@ -1,5 +1,5 @@
 {
-  "pensamentos" : [
+  "pensamentos": [
     {
       "id": 1,
       "conteudo": "Palmeiras minha vida é você!",
@@ -17,6 +17,12 @@
       "conteudo": "Beatriz é a minha princesa linda",
       "autoria": "Andrew, namorado da Beatriz...",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Angular é mil vezes melhor que React",
+      "autoria": "Dev Andrew Silva",
+      "modelo": "modelo3",
+      "id": 4
     }
   ]
 }
