@@ -33,6 +33,8 @@
     padding: 10px;
     text-decoration: none;
     color: yellow;
+    font-size: 1.2em;
+    font-weight: bold;
   }
 
   nav a:hover {

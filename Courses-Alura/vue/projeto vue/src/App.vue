@@ -2,6 +2,7 @@
 import Card from './components/card.vue';
 import Navbar from './components/navbar.vue';
 import Footer from './components/footer.vue';
+import Lifecycle from './components/lifecycle.vue';
 </script>
 
 <template>
@@ -9,6 +10,9 @@ import Footer from './components/footer.vue';
     <nav>
       <Navbar />
     </nav>
+    <div class="containerBoasVindas">
+      <Lifecycle />
+    </div>
     <main>
       <article class="card-1">
         <Card />
@@ -50,5 +54,11 @@ import Footer from './components/footer.vue';
 
   .container-pai {
     background-color: rgb(94, 94, 94);
+  }
+
+  .containerBoasVindas {
+    text-align: center;
+    margin: 10px;
+    color: rgb(255, 255, 255);
   }
 </style>
