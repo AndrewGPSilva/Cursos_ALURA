@@ -23,9 +23,6 @@ import Lifecycle from './components/lifecycle.vue';
       <article class="card-2">
         <Card />
       </article>
-      <article class="card-2">
-        <Card />
-      </article>
     </main>
     <div class="footer">
       <Footer></Footer>

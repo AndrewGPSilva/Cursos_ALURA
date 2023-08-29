@@ -1,4 +1,5 @@
 <template>
+    <h1>Seja bem vindo ao meu projeto Vue</h1>
     <h1>{{ frase }}</h1>
 </template>
 
@@ -7,7 +8,7 @@
         name: 'lifecycle',
         data() {
             return {
-                frase: 'Seja bem vindo ao meu projeto Vue'
+                frase: ''
             }
         },
         created(){
