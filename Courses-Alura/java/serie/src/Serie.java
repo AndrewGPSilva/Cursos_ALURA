@@ -1,6 +1,7 @@
-public class Serie {
+public class Serie implements Comparable<Serie> {
     String nome;
     String categoria;
+
 
     public Serie(String nome, String categoria) {
         this.nome = nome;
@@ -13,5 +14,10 @@ public class Serie {
 
     public String getLerCategoria() {
         return this.categoria;
+    }
+
+    @Override
+    public int compareTo(Serie OutraSerie) {
+        return this.nome.compareTo(OutraSerie.getLerNome());
     }
 }

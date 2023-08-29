@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ProgramaSerie {
     public static void main(String[] args) throws Exception {
@@ -11,6 +12,10 @@ public class ProgramaSerie {
 
         MinhasSeries.add(new Serie("One Piece", "Anime"));
         MinhasSeries.add(new Serie("Naruto", "Anime"));
+        MinhasSeries.add(new Serie("Demon Slayer", "anime"));
+
+        Collections.sort(MinhasSeries);
+
         for(Serie Series: MinhasSeries) {
             System.out.println("O anime " + Series.getLerNome());
             System.out.println("É da categoria: " + Series.getLerCategoria());
