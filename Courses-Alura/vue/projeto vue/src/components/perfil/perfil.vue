@@ -1,14 +1,20 @@
 <template>
     <div>
-        <button @click="showPerfil">{{ statusBtn }}</button>
-        <div v-show="showPerfilDiv">
-            <h2>Usuario: {{ nome }}</h2>
-            <img :src="img_source" :alt="alt">
+        <div>
+            <button @click="showPerfil">{{ statusBtn }}</button>
+            <div v-show="showPerfilDiv">
+                <h2>Usuario: {{ nome }}</h2>
+                <img :src="img_source" :alt="alt">
+            </div>
+        </div>
+        <div>
+            <tecnologias />
         </div>
     </div>
 </template>
 
 <script>
+    import tecnologias from '../tecnologias/tecnologias.vue'
     export default {
         name: "perfil",
         data() {
@@ -19,6 +25,9 @@
                 statusBtn: "Esconder Perfil",
                 showPerfilDiv: true
             }
+        },
+        components: {
+            tecnologias
         },
         methods: {
             showPerfil() {
