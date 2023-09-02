@@ -1,10 +1,3 @@
-<script setup>
-import Card from './components/card.vue';
-import Navbar from './components/navbar.vue';
-import Footer from './components/footer.vue';
-import Lifecycle from './components/lifecycle.vue';
-</script>
-
 <template>
   <div class="container-pai">
     <nav>
@@ -23,12 +16,31 @@ import Lifecycle from './components/lifecycle.vue';
       <article class="card-2">
         <Card />
       </article>
+      <formulario />
     </main>
     <div class="footer">
       <Footer></Footer>
     </div>
   </div>
 </template>
+
+<script>
+  import Card from './components/card.vue';
+  import Navbar from './components/navbar.vue';
+  import Footer from './components/footer.vue';
+  import Lifecycle from './components/lifecycle.vue';
+  import formulario from './components/formulario/formulario.vue'
+  export default {
+    name: "App",
+    components: {
+      Card,
+      Navbar,
+      Footer,
+      Lifecycle,
+      formulario
+    }
+  }
+</script>
 
 <style scoped>
   main {
